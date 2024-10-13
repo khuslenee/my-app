@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #left-side {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  #right-side {
+    flex: 0 0 200px;
+  }
+  
+  #intro {
+    margin-bottom: 10px;
+  }
+  
+  
+  #intro h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  #info, #availability, #contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #info svg, #availability svg, #contact svg {
+    margin-right: 10px;
+  }
+  
+  #info span, #availability span, #contact span {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #right-side img {
+    width: auto;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
